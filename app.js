@@ -121,10 +121,10 @@
 
 
 
-var age = "12"
-var salary = "20"
-var salary2 = "20"
-var salary3 = "25"
+// var age = "12"
+// var salary = "20"
+// var salary2 = "20"
+// var salary3 = "25"
 
 
 // if (age && salary == "zeera") {
@@ -151,3 +151,47 @@ var salary3 = "25"
 
 
 
+// ARRAY
+
+// var Names = [" hasssan", " irfan", " usman", " ahmed"]
+
+// alert("welcome to" + Names[0])//
+
+
+// var nums = ["10", "15", "20", "25", "30", "15", "40", "45", "50"]
+// if (nums[1] || nums[5] == "15") {
+//     console.log("allowed")
+
+// }
+
+
+
+// var nums = ["10", "15", "20", "25", "30", "15", "40", "45", "50"]
+
+// "" string
+// 4 number 
+// true false null  boolean
+
+// nums.pop()
+// nums.push("irfan","hassan")
+
+// nums.shift()
+
+// nums.unshift("hassan","usman")
+
+// nums.splice(1,0,"hasan")
+
+// var a = nums.slice(2, 4)
+
+
+// console.log(nums)
+
+var b = ["2","4","6","8","10","12"]
+
+// b.pop()
+// b.shift()
+// b.push("13", "14" ,"15")
+// b.unshift("0")
+// b.splice(3,1,"3")
+var c = b.slice(2,5)
+console.log(c,)
