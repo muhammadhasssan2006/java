@@ -186,12 +186,39 @@
 
 // console.log(nums)
 
-var b = ["2","4","6","8","10","12"]
+// var b = ["2","4","6","8","10","12"]
+// var c =["3","5","7","9","11"]
 
-// b.pop()
-// b.shift()
-// b.push("13", "14" ,"15")
-// b.unshift("0")
-// b.splice(3,1,"3")
-var c = b.slice(2,5)
-console.log(c,)
+// b.pop()  -----remove last index of array
+// b.shift()  -----remove first index of array
+// b.push("13", "14" ,"15")  ------  add index in the end of array
+// b.unshift("0")  ------add indexe in the start of array 
+// b.splice(3,1,"3") ------use to add or remove index anywhere
+// var c = b.slice(2,5)   //-------it provide new array 
+// b.splice( 2,5,"hassan")
+//  var c = b.slice(3,6)
+
+// concat---for joining two arrys
+// d=b.concat(c); 
+// console.log(d)
+
+
+
+// nested condition
+
+// var a = 4 , b = 7 , c = 6 
+// if(a<b)
+// {
+// if(b<c){
+//     console.log("hi")
+// }
+//        else if(a>b){
+//         console.log("by")
+//     }
+//     else {
+//         console.log("hello")
+//     }
+// }
+// else{
+//     console.log ("bye")
+// }
