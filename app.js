@@ -222,3 +222,27 @@
 // else{
 //     console.log ("bye")
 // }
+
+
+
+
+//loop
+
+var names = ["hasssan", "irfan", "usman", "ahmed","tahir"]
+
+var pass_std = ["irfan","hasssan","usman","ahmed"]
+
+
+
+var new_arr = []
+
+for (var i = 0; i < names.length; i++) {
+    if (pass_std[1] === names[i]) {
+        alert("you are passed")
+    }
+    console.log(names[i])
+}
+
+
+
+
