@@ -228,21 +228,82 @@
 
 //loop
 
-var names = ["hasssan", "irfan", "usman", "ahmed","tahir"]
+// var names = ["hasssan", "irfan", "usman", "ahmed","tahir"]
 
-var pass_std = ["irfan","hasssan","usman","ahmed"]
+// var pass_std = ["irfan","hasssan","usman","ahmed"]
 
 
 
-var new_arr = []
+// // var new_arr = []
 
-for (var i = 0; i < names.length; i++) {
-    if (pass_std[1] === names[i]) {
-        alert("you are passed")
+// for (var i = 0; i < names.length; i++) {
+//     if (pass_std[1] === names[i]) {
+//         alert("you are passed")
+//     }
+//     console.log(names[i])
+// }
+
+// var students = ["Hassan","Irfan","Usman","Ahmed","Zia","tahir","faizan","rafay",
+// "haseeb","mioz","akhtar","ishaq","mansoor","luqman","hammad","tanzeel","huzaifa",
+// "hasnain","kashi","hamza","shahzad"]
+
+// var passed_students = ["Hassan","Irfan","Zia","rafay","tahir"]
+
+// for (var i = 0; i < students.length; i++) {
+
+    // if (passed_students.includes(students[i])) {
+        // Add the passing student to the passingStudents array
+        // passingStudents.push(students[i]);
+        // Show an alert for the passing student
+        // alert(students[i] + " passed!");
+
+        // console.log("Passing students:", passingStudents);
+
+    // if(passed_students [1] === students[i]){
+    //     alert("you are passed")
+    // }
+    // else{
+        // alert("you are failed")
+    // }
+    // console.log(students[i])
+// }
+
+
+// var students = ["Hassan", "Irfan", "Usman", "Ahmed", "Zia", "tahir", "faizan", "rafay",
+//     "haseeb", "mioz", "akhtar", "ishaq", "mansoor", "luqman", "hammad", "tanzeel", "huzaifa",
+//     "hasnain", "kashi", "hamza", "shahzad"];
+
+
+// var passed_students = ["Hassan", "Irfan", "Zia", "rafay", "tahir"];
+
+// var passing_students = []
+
+// for (i = 0 ;1 < students.length; i++){
+//     if(passed_students.includes(students[i])){
+//         passing_students.push(passing_students)
+//         alert(students[i] + "passed!")
+//     }
+    
+//     console.log(students[i]);
+// }
+
+var students = ["Hassan", "Irfan", "Usman", "Ahmed", "Zia", "tahir", "faizan", "rafay",
+    "haseeb", "mioz", "akhtar", "ishaq", "mansoor", "luqman", "hammad", "tanzeel", "huzaifa",
+    "hasnain", "kashi", "hamza", "shahzad"];
+
+
+var passed_students = ["Hassan", "Irfan", "Zia", "rafay", "tahir"];
+
+var passing_students = []
+
+for (i = 0; i < students.length; i++){
+    if(passed_students .includes (students[i])){
+        passing_students.push(students[i])
+
+        alert(students[i] + " passed")
+
     }
-    console.log(names[i])
+    console.log(passing_students)
 }
-
-
 
 
