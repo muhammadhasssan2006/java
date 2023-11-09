@@ -251,21 +251,21 @@
 
 // for (var i = 0; i < students.length; i++) {
 
-    // if (passed_students.includes(students[i])) {
-        // Add the passing student to the passingStudents array
-        // passingStudents.push(students[i]);
-        // Show an alert for the passing student
-        // alert(students[i] + " passed!");
+// if (passed_students.includes(students[i])) {
+// Add the passing student to the passingStudents array
+// passingStudents.push(students[i]);
+// Show an alert for the passing student
+// alert(students[i] + " passed!");
 
-        // console.log("Passing students:", passingStudents);
+// console.log("Passing students:", passingStudents);
 
-    // if(passed_students [1] === students[i]){
-    //     alert("you are passed")
-    // }
-    // else{
-        // alert("you are failed")
-    // }
-    // console.log(students[i])
+// if(passed_students [1] === students[i]){
+//     alert("you are passed")
+// }
+// else{
+// alert("you are failed")
+// }
+// console.log(students[i])
 // }
 
 
@@ -283,27 +283,71 @@
 //         passing_students.push(passing_students)
 //         alert(students[i] + "passed!")
 //     }
-    
+
 //     console.log(students[i]);
 // }
 
-var students = ["Hassan", "Irfan", "Usman", "Ahmed", "Zia", "tahir", "faizan", "rafay",
-    "haseeb", "mioz", "akhtar", "ishaq", "mansoor", "luqman", "hammad", "tanzeel", "huzaifa",
-    "hasnain", "kashi", "hamza", "shahzad"];
 
 
-var passed_students = ["Hassan", "Irfan", "Zia", "rafay", "tahir"];
+// for (i = 0; i < students.length; i++){
+//     if(passed_students .includes (students[i])){
+//         passing_students.push(students[i])
 
-var passing_students = []
+//         // alert(students[i] + " passed")
 
-for (i = 0; i < students.length; i++){
-    if(passed_students .includes (students[i])){
-        passing_students.push(students[i])
+//     }
+//     console.log(passing_students)
+// }
+// for (i = 0; i  < students.length; i++){
+//     if(passed_students .includes (students[i])){
+//         passing_students.push(students.pop())
+//     }
+//     console.log(passing_students)
+// }
+// for (i = 0; i < students.length; i++){
+//     if(passed_students .includes (students[i])){
+//         passed_students.push(students.unshift())
+//     }
+//     console.log(passing_students)
+// }
 
-        alert(students[i] + " passed")
 
-    }
-    console.log(passing_students)
-}
+// var students = ["Hassan", "Irfan", "Usman", "Ahmed", "Zia", "tahir", "faizan", "rafay",
+//     "haseeb", "mioz", "akhtar", "ishaq", "mansoor", "luqman", "hammad", "tanzeel", "huzaifa",
+//     "hasnain", "kashi", "hamza", "shahzad"];
 
 
+// var passed_students = ["Hassan", "Irfan", "Zia", "rafay", "tahir"];
+
+// var passing_students = []
+
+// var firstNames = ["Hassan", "Irfan", "Zia", "rafay", "tahir"];
+
+// var lastNames = ["suleman", "Baig", "rehman", "ejaz", "aslam"];
+
+// var fullName = []
+
+// for (i = 0; i < firstNames.length; i++) {
+
+//     for (a = 0; a < lastNames.length; a++) {
+//         fullName.push(firstNames[i] + lastNames[a])
+//     }
+
+// }
+// console.log(fullName)
+
+
+
+// var number = ["2" , "4", "6" , "8" , "10"]
+// var number2 = ["1" , "3" , "5" , "7" , "11"]
+// var total_number =[]
+
+// for (a = 0; a < number.length; a++){
+//     for (b = 0; b < number2.length; a++ ){
+//         total_number.push(number[a] + number2[b])
+//     }
+
+
+// }
+
+// console.log(total_number);
