@@ -338,16 +338,18 @@
 
 
 
-// var number = ["2" , "4", "6" , "8" , "10"]
-// var number2 = ["1" , "3" , "5" , "7" , "11"]
-// var total_number =[]
-
-// for (a = 0; a < number.length; a++){
-//     for (b = 0; b < number2.length; a++ ){
-//         total_number.push(number[a] + number2[b])
-//     }
 
 
-// }
 
-// console.log(total_number);
+var firstname = ["Hassan","irfan","tahir","usman"]
+var lastName = ["suleman","Baig","aslam","suleman"]
+
+fullname =[]
+for ( i = 0; i < firstname.length; i++){
+
+    for(a = 0; a < lastName.length; a++){
+        fullname.push(firstname[i] + lastName[a])
+    }
+
+}
+console.log(fullname)
