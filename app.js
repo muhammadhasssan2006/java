@@ -341,15 +341,88 @@
 
 
 
-var firstname = ["Hassan","irfan","tahir","usman"]
-var lastName = ["suleman","Baig","aslam","suleman"]
+// var firstname = ["Hassan","irfan","tahir","usman"]
+// var lastName = ["suleman","Baig","aslam","suleman"]
 
-fullname =[]
-for ( i = 0; i < firstname.length; i++){
+// fullname =[]
+// for ( i = 0; i < firstname.length; i++){
 
-    for(a = 0; a < lastName.length; a++){
-        fullname.push(firstname[i] + lastName[a])
+//     for(a = 0; a < lastName.length; a++){
+//         fullname.push(firstname[i] + lastName[a])
+//     }
+
+// }
+// console.log(fullname)
+
+
+
+// var evennum = ["2","4","6","8","10"]
+// var oddnum = ["1","3","5","7","9"]
+// var totalnum =[]
+
+// for (i = 0; i < evennum.length; i++){
+//     for (j = 0; j < oddnum.length; j++){
+//         totalnum.push(evennum[i] + oddnum[j])
+//     }
+// }
+
+// console.log(totalnum)
+
+
+var digits = [1,2,3,4]
+var digits2 = [5,6,7,8]
+
+var finaldigits =[]
+
+for (i = 0;i < digits.length;i++){
+    for (j = 0;j < digits.length;j++){
+        finaldigits.push(digits[i] + digits2[j])
     }
-
 }
-console.log(fullname)
+
+console.log(finaldigits)
+
+
+
+
+var digits = [1,2,3,4]
+var digits2 = [5,6,7,8]
+
+var finaldigits =[]
+
+for (i = 0;i < digits.length;i++){
+    for (j = 0;j < digits.length;j++){
+        finaldigits.push(digits[i] - digits2[j])
+    }
+}
+
+console.log(finaldigits)
+
+
+var digits = [1,2,3,4]
+var digits2 = [5,6,7,8]
+
+var finaldigits =[]
+
+for (i = 0;i < digits.length;i++){
+    for (j = 0;j < digits.length;j++){
+        finaldigits.push(digits[i] * digits2[j])
+    }
+}
+
+console.log(finaldigits)
+
+
+
+var digits = [1,2,3,4]
+var digits2 = [5,6,7,8]
+
+var finaldigits =[]
+
+for (i = 0;i < digits.length;i++){
+    for (j = 0;j < digits.length;j++){
+        finaldigits.push(digits[i] / digits2[j])
+    }
+}
+
+console.log(finaldigits)
