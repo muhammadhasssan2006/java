@@ -369,60 +369,76 @@
 // console.log(totalnum)
 
 
-var digits = [1,2,3,4]
-var digits2 = [5,6,7,8]
+// var digits = [1,2,3,4]
+// var digits2 = [5,6,7,8]
 
-var finaldigits =[]
+// var finaldigits =[]
 
-for (i = 0;i < digits.length;i++){
-    for (j = 0;j < digits.length;j++){
-        finaldigits.push(digits[i] + digits2[j])
+// for (i = 0;i < digits.length;i++){
+//     for (j = 0;j < digits.length;j++){
+//         finaldigits.push(digits[i] + digits2[j])
+//     }
+// }
+
+// console.log(finaldigits)
+
+
+
+
+// var digits = [1,2,3,4]
+// var digits2 = [5,6,7,8]
+
+// var finaldigits =[]
+
+// for (i = 0;i < digits.length;i++){
+//     for (j = 0;j < digits.length;j++){
+//         finaldigits.push(digits[i] - digits2[j])
+//     }
+// }
+
+// console.log(finaldigits)
+
+
+// var digits = [1,2,3,4]
+// var digits2 = [5,6,7,8]
+
+// var finaldigits =[]
+
+// for (i = 0;i < digits.length;i++){
+//     for (j = 0;j < digits.length;j++){
+//         finaldigits.push(digits[i] * digits2[j])
+//     }
+// }
+
+// console.log(finaldigits)
+
+
+
+// var digits = [1,2,3,4]
+// var digits2 = [5,6,7,8]
+
+// var finaldigits =[]
+
+// for (i = 0;i < digits.length;i++){
+//     for (j = 0;j < digits.length;j++){
+//         finaldigits.push(digits[i] / digits2[j])
+//     }
+// }
+
+// console.log(finaldigits)
+
+
+
+
+var students = ["hassan","akhtar","zain","tanzeel","mansoor"]
+var house = [" Alam"," Jinnah"]
+var students_group = []
+
+
+for (i = 0 ; i < students.length ; i++){
+    for (j = 0 ; j < house.length ; j++){
+        students_group.push(students[i] + house[j])
     }
 }
 
-console.log(finaldigits)
-
-
-
-
-var digits = [1,2,3,4]
-var digits2 = [5,6,7,8]
-
-var finaldigits =[]
-
-for (i = 0;i < digits.length;i++){
-    for (j = 0;j < digits.length;j++){
-        finaldigits.push(digits[i] - digits2[j])
-    }
-}
-
-console.log(finaldigits)
-
-
-var digits = [1,2,3,4]
-var digits2 = [5,6,7,8]
-
-var finaldigits =[]
-
-for (i = 0;i < digits.length;i++){
-    for (j = 0;j < digits.length;j++){
-        finaldigits.push(digits[i] * digits2[j])
-    }
-}
-
-console.log(finaldigits)
-
-
-
-var digits = [1,2,3,4]
-var digits2 = [5,6,7,8]
-
-var finaldigits =[]
-
-for (i = 0;i < digits.length;i++){
-    for (j = 0;j < digits.length;j++){
-        finaldigits.push(digits[i] / digits2[j])
-    }
-}
-
-console.log(finaldigits)
+console.log(students_group)
