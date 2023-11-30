@@ -430,15 +430,59 @@
 
 
 
-var students = ["hassan","akhtar","zain","tanzeel","mansoor"]
-var house = [" Alam"," Jinnah"]
-var students_group = []
+// var students = ["hassan","akhtar","zain","tanzeel","mansoor"]
+// var house = [" Alam"," Jinnah"]
+// var students_group = []
 
 
-for (i = 0 ; i < students.length ; i++){
-    for (j = 0 ; j < house.length ; j++){
-        students_group.push(students[i] + house[j])
-    }
-}
+// for (i = 0 ; i < students.length ; i++){
+//     for (j = 0 ; j < house.length ; j++){
+//         students_group.push(students[i] + house[j])
+//     }
+// }
 
-console.log(students_group)
+// console.log(students_group)
+
+
+// var a = ["haSSan","Irfan","Usman"]
+
+// for (i = 0; i < a.length; i++){
+//    var  b = a[i].toUpperCase()
+//    console.log(b)
+// }
+
+// var a = "Hassan hassan is studying in 11 hassan hassan"
+
+// for(i=0;i< a.length; i++){
+//     console.log(a[i])
+// }
+
+
+// var b = a.indexOf("stud")
+// var c = a.lastIndexOf("hassan")
+
+// var d = a.slice(17,25)
+
+// console.log(b,c,d)
+
+// console.log(b)
+
+// var b = a.toLocaleUpperCase()
+
+// console.log(b)
+
+
+// var a = "Hassan is a good boy";
+
+// var b = a.replace("good","bad")
+
+// var b = a.charAt(3)
+
+// console.log(b);
+
+
+var a = 1.2;
+
+var b = Math.ceil(a)
+
+console.log(b)
