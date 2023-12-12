@@ -451,7 +451,7 @@
 //    console.log(b)
 // }
 
-// var a = "Hassan hassan is studying in 11 hassan hassan"
+var a = "Hassan hassan is studying in 11 hassan hassan"
 
 // for(i=0;i< a.length; i++){
 //     console.log(a[i])
@@ -476,13 +476,13 @@
 
 // var b = a.replace("good","bad")
 
-// var b = a.charAt(3)
+// // var b = a.charAt(5)
 
 // console.log(b);
 
 
-var a = 1.2;
+// var a = 2.7;
 
-var b = Math.ceil(a)
+// var b = Math.ceil(a)
 
-console.log(b)
+// console.log(b)
