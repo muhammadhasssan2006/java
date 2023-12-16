@@ -460,8 +460,10 @@ var a = "Hassan hassan is studying in 11 hassan hassan"
 
 // var b = a.indexOf("stud")
 // var c = a.lastIndexOf("hassan")
-
+// console.log(c)
+// 
 // var d = a.slice(17,25)
+// console.log(d)
 
 // console.log(b,c,d)
 
@@ -476,13 +478,27 @@ var a = "Hassan hassan is studying in 11 hassan hassan"
 
 // var b = a.replace("good","bad")
 
-// // var b = a.charAt(5)
+// var b = a.charAt(7)
 
 // console.log(b);
 
 
-// var a = 2.7;
+// var a = 1.99;
 
 // var b = Math.ceil(a)
-
+//  var b = Math.round(a)
+// var b = Math.floor(a)
 // console.log(b)
+
+
+
+
+// generating random number
+
+// var x =Math.random()
+
+// var x = Math.floor(Math.random() *10)
+
+// var x = Math.floor(Math.random() * (10 - 3 )  ) + 3 ;  
+
+// console.log(x)
