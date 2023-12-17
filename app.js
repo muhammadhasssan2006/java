@@ -502,3 +502,71 @@ var a = "Hassan hassan is studying in 11 hassan hassan"
 // var x = Math.floor(Math.random() * (10 - 3 )  ) + 3 ;  
 
 // console.log(x)
+
+
+
+//changing type
+
+// var type = 2
+// console.log(typeof type)
+
+// var type = "hello"
+// console.log(typeof type)
+
+// var type = false
+// console.log(typeof type)
+
+// var type = 6 + null
+// console.log(type)
+// console.log(typeof type)
+
+// var type = "yes"+5
+// console.log(type)
+// console.log(typeof type)
+
+// var type = 5 - true
+// console.log(type)
+// console.log(typeof type)
+
+// var type = 58
+// console.log(typeof type)
+
+
+// var newtype = String(type)
+// console.log(typeof newtype)
+
+// var type = "hello"
+// console.log(typeof type)
+
+
+// var newtype = Number(type)
+// console.log(typeof newtype)
+
+
+
+// var type = 0
+// console.log(typeof type)
+
+
+// var newtype = Boolean(type)
+// console.log(newtype)
+// console.log(typeof newtype)
+
+
+// var type = "34"
+// console.log(typeof type)
+
+
+// var newtype = Boolean(type)
+// console.log(newtype)
+// console.log(typeof newtype)
+
+
+
+var type = 34
+console.log(typeof type)
+
+
+var newtype = Boolean(type)
+console.log(newtype)
+console.log(typeof newtype)
