@@ -493,7 +493,7 @@ var a = "Hassan hassan is studying in 11 hassan hassan"
 
 
 
-// generating random number
+// generating random number........
 
 // var x =Math.random()
 
@@ -505,7 +505,7 @@ var a = "Hassan hassan is studying in 11 hassan hassan"
 
 
 
-//changing type
+//changing type.........
 
 // var type = 2
 // console.log(typeof type)
@@ -563,10 +563,82 @@ var a = "Hassan hassan is studying in 11 hassan hassan"
 
 
 
-var type = 34
-console.log(typeof type)
+// var type = 34
+// console.log(typeof type)
 
 
-var newtype = Boolean(type)
-console.log(newtype)
-console.log(typeof newtype)
+// var newtype = Boolean(type)
+// console.log(newtype)
+// console.log(typeof newtype)
+
+
+// var type = 34 + "hassan"
+// console.log(typeof type)
+
+// var newtype = String(type)
+// console.log(newtype)
+// console.log(typeof newtype)
+
+
+
+// var type = 1 + true
+// console.log(typeof type)
+
+// var newtype = Number(type)
+// console.log(newtype)
+// console.log(typeof newtype)
+
+
+//Generating Random number practice.......
+
+// var x = Math.floor(Math.random() * (10 - 5)) + 5
+
+// console.log(x)
+
+// var y = Math.floor(Math.random() * (7 - 1)) +1
+// console.log(y)
+
+
+//Controlling the length of decimals........
+
+// var num = 3.14156
+// var num2 = num.toFixed(2)
+
+// console.log(num2)
+
+
+// var num = 3.14156
+// var num2 = num.toPrecision(2)
+
+// console.log(num2)
+
+
+
+//Getting the current date and time...........
+
+// var X = new Date(2023 , 4 , 20 , 2 , 23 , 30 ,10)
+
+// console.log(X.getFullYear())
+// console.log(X.getMonth())
+// console.log(X.getDay())
+// console.log(X.getHours())
+// console.log(X.getMinutes())
+// console.log(X.getSeconds())
+// console.log(X.getMilliseconds())
+
+
+
+// var x = new Date(2022 , 7 , 10 , 5 , 15 , 13 , 11)
+
+// console.log(x.getFullYear())
+// console.log(x.getDate())
+// console.log(x.getDay())
+// console.log(x.getHours())
+// console.log(x.getMinutes())
+// console.log(x.getSeconds())
+// console.log(x.getMilliseconds())
+
+
+
+
+
