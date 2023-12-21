@@ -638,7 +638,28 @@ var a = "Hassan hassan is studying in 11 hassan hassan"
 // console.log(x.getSeconds())
 // console.log(x.getMilliseconds())
 
+// var x = new Date(2019 , 1 , 10 , 2 , 15 , 50 , 90)
+
+// x.setDate(x.getDate() + 20)
+
+// console.log(x)
 
 
+// var y = new Date( 2021 , 7 , 1 , 5 , 40 , 20 , 45)
+
+// y.setFullYear(y.getFullYear() + 2)
+
+// console.log(y)
+
+
+
+var a = new Date(2018 , 5 , 15 , 34 , 59 , 10 , 12)
+
+var b = new Date(2018 , 5 , 15 , 34 , 59 , 10 , 12)
+
+b.setDate(a.getDate() + 20)
+
+console.log(a)
+console.log(b)
 
 
