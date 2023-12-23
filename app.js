@@ -653,13 +653,23 @@ var a = "Hassan hassan is studying in 11 hassan hassan"
 
 
 
-var a = new Date(2018 , 5 , 15 , 34 , 59 , 10 , 12)
+// var a = new Date(2018 , 5 , 15 , 34 , 59 , 10 , 12)
 
-var b = new Date(2018 , 5 , 15 , 34 , 59 , 10 , 12)
+// var b = new Date(2018 , 5 , 15 , 34 , 59 , 10 , 12)
 
-b.setDate(a.getDate() + 20)
+// b.setDate(a.getDate() + 20)
 
-console.log(a)
-console.log(b)
+// console.log(a)
+// console.log(b)
+
+
+// var x = new Date()
+// var y = x.getDate()
+// var z = x.getDay()
+// var a = x.getFullYear()
+// var b = x.getHours()
+
+
+// console.log(y,z,a,b)
 
 
