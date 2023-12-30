@@ -45,6 +45,9 @@
 // console.log(spec)
 
 
+//if conditions-----------
+
+
 // var name = "hassan "
 // var lastName = "suleman"
 
@@ -114,12 +117,12 @@
 // }
 
 
-// Logical operator 
+// Logical operator----------- 
 
 // && AND operator
 // || OR operator
 
-
+//Nested condition---------------
 
 // var age = "12"
 // var salary = "20"
@@ -151,7 +154,7 @@
 
 
 
-// ARRAY
+// ARRAY-----------
 
 // var Names = [" hasssan", " irfan", " usman", " ahmed"]
 
@@ -451,7 +454,7 @@
 //    console.log(b)
 // }
 
-var a = "Hassan hassan is studying in 11 hassan hassan"
+// var a = "Hassan hassan is studying in 11 hassan hassan"
 
 // for(i=0;i< a.length; i++){
 //     console.log(a[i])
@@ -671,5 +674,59 @@ var a = "Hassan hassan is studying in 11 hassan hassan"
 
 
 // console.log(y,z,a,b)
+
+
+
+// var a = "45"
+// var b = 5
+
+// var c = Number(a ) + b 
+
+// console.log(c)
+
+
+
+
+
+//Function---------------
+
+
+// function first() {
+//     var now = new Date();
+//     var theHr = now.getHours();
+//     var theMin = now.getMinutes();
+
+//     alert("time: " + theHr + ":" + theMin);
+// }
+
+// var a = ["test","time","test","test"]
+
+// for(i = 0 ; i < a.length ; i++){
+//     if("time" == a[i]){
+//         first()
+//      }
+// }
+
+
+
+// 36
+// Functions:
+// Passing them data-------------
+
+
+// function name(firstName, lastName) {
+
+//     var name = firstName + " " + lastName;
+
+//     console.log(name)
+
+// }
+
+// // var b = "hassan"
+
+
+// name("hassan", "suleman")
+
+
 
 
