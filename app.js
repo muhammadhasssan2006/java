@@ -447,6 +447,14 @@
 // console.log(students_group)
 
 
+
+
+
+
+
+//changing case ______________________
+
+
 // var a = ["haSSan","Irfan","Usman"]
 
 // for (i = 0; i < a.length; i++){
@@ -509,6 +517,8 @@
 
 
 //changing type.........
+
+
 
 // var type = 2
 // console.log(typeof type)
@@ -728,5 +738,60 @@
 // name("hassan", "suleman")
 
 
+// var day = "sat"
 
 
+// switch (day) {
+//     case "sun":
+//         alert("chutti hai!")
+//         break;
+//     case "sat":
+//         alert("chutti hai sat ko!")
+//         break;
+//     case "fri":
+//         alert("maza ni aa raha!")
+//         break;
+
+//     default:
+//         alert("Allah hafiz!")
+//         break;
+// }
+
+// var i = 0;
+
+
+// while (i <= 3) {
+//     console.log(i);
+// i++
+// }
+
+// do {
+//     console.log(i);
+//     i++
+// } while (i <= 8);
+
+
+
+// Mouse event ___________________
+
+function fun(){
+    alert("event activated")
+}
+
+
+
+// field ___________________
+
+var x = document.getElementById("field")
+
+x.addEventListener('focus' , focusfun)
+x.addEventListener('blur', blurefun)
+
+function focusfun(){
+    x.style.backgroundColor="red"
+}
+
+function blurefun(){
+    x.style.backgroundColor="white"
+    
+}
