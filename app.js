@@ -774,7 +774,7 @@
 
 // Mouse event ___________________
 
-function fun(){
+function fun() {
     alert("event activated")
 }
 
@@ -784,14 +784,43 @@ function fun(){
 
 var x = document.getElementById("field")
 
-x.addEventListener('focus' , focusfun)
+x.addEventListener('focus', focusfun)
 x.addEventListener('blur', blurefun)
 
-function focusfun(){
-    x.style.backgroundColor="red"
+function focusfun() {
+    x.style.backgroundColor = "red"
 }
 
-function blurefun(){
-    x.style.backgroundColor="white"
-    
+function blurefun() {
+    x.style.backgroundColor = "white"
+
 }
+
+var password = document.getElementById("password")
+var btn = document.getElementById("submit")
+
+
+
+
+// function change(feild) {
+//     var email = document.getElementById(feild).value
+//     var password = document.getElementById(feild).value
+
+//     console.log(email,password);
+// }
+// function sub(feild) {
+//     var email = document.getElementById(feild).value
+//     var para = document.getElementById("para")
+//     para.innerHTML = email
+//     console.log("======", email)
+// }
+
+function get_value(email_id,password_id){
+    var email = document.getElementById(email_id).value
+    var password = document.getElementById(password_id).value
+
+    console.log(email,password);
+
+    }
+
+

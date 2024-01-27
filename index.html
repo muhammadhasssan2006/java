@@ -22,11 +22,28 @@
          <h1 id="test">HASsan</h1>
 
          <button onclick="console.log('ok')">Submit</button><br><br>
-         <div class="mouse_event" onmousemove="fun()"> Mouse Event</div><br><br>
+         <div class="mouse_event" oncontextmenu="fun()"> Mouse Event</div><br><br>
 
-         <input type="text" name="" id="field" placeholder="search">
+         <!-- <form action=""> -->
+            <!-- Email: <input required onchange="change('email')" type="email" name="" id="email"> -->
+            <!-- Password: <input required type="password" name="" id="password"> -->
+            <!-- <input type="submit" name="" id="submit"> -->
+            <!-- <button onclick="sub('email')">submit</button> -->
 
-         <!-- <input type="text" name="" id="NameFunc"> -->
+
+            <!-- <p id="para"></p> -->
+         <!-- </form> -->
+<!-- 
+         <input type="text" name="" id="field" placeholder="search"> 
+
+          <input type="text" name="" id="NameFunc"> -->
+
+
+
+          Email: <input type="text" name="" id="email">
+          password: <input type="text" name="" id="password">
+
+          <button onclick="get_value('email','password')">submit</button>
 
     <script src="./app.js"></script>
 </body>
