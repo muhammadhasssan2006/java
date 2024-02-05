@@ -815,12 +815,104 @@ var btn = document.getElementById("submit")
 //     console.log("======", email)
 // }
 
-function get_value(email_id,password_id){
-    var email = document.getElementById(email_id).value
-    var password = document.getElementById(password_id).value
+// function get_value(email_id, password_id) {
+//     var email = document.getElementById(email_id).value
+//     var password = document.getElementById(password_id).value
 
-    console.log(email,password);
+//     console.log(email, password);
 
-    }
+// }
+// function get_value(email) {
+
+
+
+//     var email_val = document.getElementById(email).value
+
+//     console.log(email_val) // email_id
+//     // var password = document.getElementById(password_id).value
+
+//     // if(email == "hassan"){
+//     //     console.log("Hy hassan")
+//     // }
+
+//     // console.log(email, password);
+
+// }
+
+
+// function para(send) {
+
+// }
+
+
+
+
+// function arg(a) {
+
+
+//     var email_val = document.getElementById(a)
+
+//     email_val.style.display = "block"
+
+
+// }
+// function off(b) {
+
+
+//     var email_val = document.getElementById(b)
+
+//     // email_val.style.display = "none"
+//     email_val.style.width = "600px"
+//     email_val.style.height = "600px"
+
+
+
+// }
+
+
+function showless(button1){
+    var show_less = document.getElementById(button1)
+    show_less.style.display = "none"
+
+}
+
+
+function showmore(button2){
+    var show_more = document.getElementById(button2)
+    show_more.style.display = "block"
+
+}
+
+function zoomin(button2){
+    var zoomin = document.getElementById(button2)
+    zoomin.style.fontSize = "23px"
+
+}
+
+
+function zoomout(button3){
+    var zoomout = document.getElementById(button3)
+    zoomout.style.fontSize = "15px"
+
+}
+
+function img(image){
+    var img = document.getElementById(image)
+    img.style.display = "none"
+}
+
+
+function img2(image){
+    var img = document.getElementById(image)
+    img.style.display = "block"
+}
+
+// function pica(){
+//     var pica = document.getElementById()
+
+//     pica.style.background = "url('nv.jpg')"
+// }
+
+
 
 
